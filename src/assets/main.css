@@ -1,10 +1,17 @@
-html, body, .container, .row, .col {
+html, body, .container-fluid, .row, .col {
+  margin: 0;
+  padding: 0;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
 
-.container-fluid {
-  /* background-color: pink; */
+div, body {
+  background-color: rgb(37, 37, 37);
+}
+
+span, p, h1, h2 {
+  color: white;
 }
 
 .center {
