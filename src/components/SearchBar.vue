@@ -62,7 +62,7 @@ export default {
 }
 
 
-.button {
+/* .button {
     margin-left: 5px;
     margin-right: 5px;
     position: relative;
@@ -83,7 +83,7 @@ export default {
 
 .button-content {
     position: relative;
-    z-index: 1;
+    /* z-index: 1; 
 }
 
 .button::before {
@@ -100,5 +100,5 @@ export default {
             rgb(54, 174, 249) 10.8%,
             rgb(142, 234, 255) 94.3%);
     transition: all 0.475s;
-}
+} */
 </style>

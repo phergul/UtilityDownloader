@@ -1,11 +1,14 @@
 <script>
 export default {
+    props: {
+        utilities: {
+            type: Array,
+            required: true
+        }
+    },
     data() {
         return {
-            utilities: [{
-                name: "Youtube",
-                url: "www.youtube.com"
-            }],
+            // utilities: [],
             icon_url: "http://www.google.com/s2/favicons?sz=64&domain=",
         }
     },
@@ -182,4 +185,44 @@ a {
 .card:hover:after {
     transform: translateX(100%);
 }
+
+/* .button {
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    overflow: hidden;
+    height: 2rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover::before {
+    transform: scaleX(1);
+}
+
+.button-content {
+    position: relative;
+    z-index: 1;
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(82.3deg,
+            rgb(54, 174, 249) 10.8%,
+            rgb(142, 234, 255) 94.3%);
+    transition: all 0.475s;
+} */
 </style>
